@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B88E08C1D4EF18E00506C4E /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1B88E08B1D4EF18E00506C4E /* gif.gif */; };
 		1BF395F51D4B28AF00B0D52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF395F41D4B28AF00B0D52D /* AppDelegate.swift */; };
 		1BF395F71D4B28AF00B0D52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF395F61D4B28AF00B0D52D /* ViewController.swift */; };
 		1BF395FA1D4B28AF00B0D52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF395F81D4B28AF00B0D52D /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B88E08B1D4EF18E00506C4E /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		1BF395F11D4B28AF00B0D52D /* DropDown-TableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DropDown-TableViewDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF395F41D4B28AF00B0D52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BF395F61D4B28AF00B0D52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		1BF395F31D4B28AF00B0D52D /* DropDown-TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1B88E08B1D4EF18E00506C4E /* gif.gif */,
 				1BF395F41D4B28AF00B0D52D /* AppDelegate.swift */,
 				1BF395F61D4B28AF00B0D52D /* ViewController.swift */,
 				1BF395F81D4B28AF00B0D52D /* Main.storyboard */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF395FF1D4B28B000B0D52D /* LaunchScreen.storyboard in Resources */,
+				1B88E08C1D4EF18E00506C4E /* gif.gif in Resources */,
 				1BF395FC1D4B28AF00B0D52D /* Assets.xcassets in Resources */,
 				1BF395FA1D4B28AF00B0D52D /* Main.storyboard in Resources */,
 			);
@@ -485,6 +489,7 @@
 				1BF3961B1D4B28B000B0D52D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF3961C1D4B28B000B0D52D /* Build configuration list for PBXNativeTarget "DropDown-TableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +498,7 @@
 				1BF3961E1D4B28B000B0D52D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BF3961F1D4B28B000B0D52D /* Build configuration list for PBXNativeTarget "DropDown-TableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +507,7 @@
 				1BF396211D4B28B000B0D52D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
